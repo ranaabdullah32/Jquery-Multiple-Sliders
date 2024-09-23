@@ -33,6 +33,6 @@ JavaScript
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ranaabdullah32/Multiple-Sliders-
+   git clone https://github.com/ranaabdullah32/Multiple-Sliders
    Contributing
    Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
