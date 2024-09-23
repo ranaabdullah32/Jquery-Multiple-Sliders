@@ -19,7 +19,7 @@ To add a new slider, follow these steps:
 
 Copy the existing slider structure in index.html.
 Update the content (images, text) within the slider.
-Adjust the slider settings in the Jquery section if needed.
+Adjust the slider settings in the Javascript section if needed.
 Customization
 
 
