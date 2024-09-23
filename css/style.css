@@ -1,0 +1,551 @@
+  /**All Commom Styles **/
+  section{
+    padding: 80px 0 80px;
+  }
+  h2{
+    font-size: 23px !important;
+    text-align: center;
+  }
+  .container-fluid {
+  margin: 0px !important;
+  padding: 0px !important;
+  }
+
+/**Navigation bar **/
+
+#maincontainer {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.navbar {
+
+  color: white;
+  padding: 10px 0;
+  position: relative; /* Necessary for absolute positioning of the menu */
+}
+
+#maincontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-top: 2.5%;
+}
+
+#maincontainer .logo {
+  margin-right: 20px;
+}
+
+.menu-toggle {
+  cursor: pointer; /* Always show the menu toggle icon */
+  font-size: 20px;
+}
+
+.navbar-menu {
+  display: none; /* Hide by default */
+  position: absolute; /* Position below navbar */
+  top: 60px; /* Adjust according to your navbar height */
+  left: 0;
+  right: 0; /* Stretch across the screen */
+  background-color: rgba(51, 51, 51, 0.9); /* Darker background for the menu */
+  padding: 20px; /* Padding around the menu */
+  border-radius: 5px; /* Rounded corners */
+  flex-direction: column; /* Stack menu items vertically */
+  align-items: center; /* Center the menu items */
+}
+
+.navbar-menu.active {
+  display: flex; /* Show menu when active */
+}
+
+#maincontainer .close-button {
+  align-self: flex-end; /* Align the close button to the right */
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 15px; /* Space between close button and menu items */
+}
+
+.navbar-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+.navbar-menu li {
+  margin: 10px 0; /* Space between menu items */
+}
+
+.navbar-menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px; /* Padding for clickable area */
+  border-radius: 5px; /* Rounded corners for links */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.navbar-menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-top: 2.5%;
+}
+
+#maincontainer .icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#maincontainer .icon i {
+  font-size: 20px;
+}
+
+
+
+/** Header Background Image Text **/
+.image-header{
+ 
+    margin: 0px;
+    min-height: 620px;
+    height: 92vh;
+    padding: 0;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+  
+  }
+  #newarrivals{
+    margin-top: 15%;
+    margin-left: 12%;
+  }
+  .image-header p{
+   
+    color: #fff; 
+ 
+    line-height: 1.8; 
+    font-size: 15px;
+  }
+  .image-header h1 {
+    
+    font-size: 50px; 
+    line-height: 1.2; 
+    color: white;
+  }
+  #header-content .col-lg-6.col-md-8.col-sm-12  {
+    top: 22% !important ;
+  }
+
+
+  /**Category Section Images**/
+  #topcategory-sec {
+    background-color: lightgray;
+    
+  }
+ #category-img  {
+    margin-top: 3%;
+  }
+  #category-img  p {
+    margin-top: 4%;
+
+  }
+  #category-img  img {
+    
+    display: inline;
+  }
+  #category-img .col {
+    text-align: center;
+  }
+  /**Top Collection Section**/
+  #topcollection-content {
+    margin-top: 5%;
+  }
+
+  #topcollection-conten p {
+   color: gray;
+
+  }
+  .coolection-head {
+    margin-top: 6%;
+  }
+  .coolection-head p{
+    margin-left: 8%;
+    font-size: 14px ;
+    margin-bottom: 0;
+   
+    
+    
+  }
+ .coolection-head span{
+    margin-left: 8%;
+    font-size: 12px ;
+    color: gray;
+    
+  }
+  .owl-carousel .owl-item img {
+    height: auto;
+  }
+  /**Lookbook Section**/
+  #lookbook-sec{
+    background-color:lightgray;
+  }
+  #lookbook-heading {
+    margin-bottom: 2%;
+  }
+  .lookbook-head p{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10%;
+  }
+  .lookbook-head span{
+    font-size: 12px;
+    color: #fff;
+    margin-left: 10%;
+  }
+  .lookbook-head {
+    margin-top: -22%;
+ }
+ .owl-carousel .owl-item img {
+  padding-left: 13px;
+ }
+ /**Start of Bestseller Section**/
+ #bestseller-heading {
+  margin-bottom: 2%;
+}
+.bestseller-head{
+  margin-top: 5%;
+} 
+ .bestseller-head p {
+
+  margin-left: 7%;
+  font-size: 14px ;
+  margin-bottom: 0;
+
+ }
+ .bestseller-head span{
+   margin-left: 7%;
+   font-size: 12px ;
+   color: gray
+ }
+ /**Deal Of Week Section**/
+ #dealofweek-sec  .image-header{
+  background-size: cover; 
+   width : 100% ; 
+   min-height: 473px;
+   height: 54vh;
+ }
+ #dealofweek-sec {
+  padding: 30px 0 80px;
+
+}
+#dealofweek-heading {
+  margin-bottom: 2%;
+  color: white;
+}
+.dealofweek-head{
+  margin-top: 2%;
+} 
+ .dealofweek-head p {
+
+  margin-left: 7%;
+  font-size: 14px ;
+  margin-bottom: 0;
+
+ }
+ .dealofweek-head span{
+   margin-left: 7%;
+   font-size: 12px ;
+   color: white
+ }
+ #dealofweek-content {
+  margin-top: 2%;
+}
+#dealofweek-heading h2{
+  margin-top: 7%;
+}
+#summersale{
+margin-top: 5%;
+
+}
+#summersale h3{
+  color: white;
+}
+#carousel04{
+
+  width: 80% !important;
+}
+/**Our Blog Section**/
+#ourblog-sec{
+  background-color:lightgray;
+}
+#ourblog-heading {
+  margin-bottom: 2%;
+}
+.ourblog-head{
+  margin-top: 5%;
+} 
+ .ourblog-head p {
+
+  margin-left: 3.5%;
+  font-size: 14px ;
+  margin-bottom: 0;
+
+ }
+ .ourblog-head span{
+   margin-left: 3.5%;
+   font-size: 12px ;
+   color: gray
+ }
+ .fast-sec{
+  padding: 0px;
+ }
+ /**Stay In Touch Section**/
+ .footer__social-link {
+  padding: 0.5rem 1rem;
+  color: black;
+  font-weight: 500;
+}
+.service-promotion__icon  .fa{
+  font-size: 52px !important;
+}
+.service-promotion__content {
+  font-size: 0.9375rem;
+}
+.text-center {
+  text-align: center !important;
+}
+.block-newsletter .form-control {
+  border-width: 1px;
+  border-color: #e4e4e4;
+  
+}
+.block-newsletter .block-newsletter__form {
+  display: flex;
+  gap: 1.25rem;
+}
+.block-newsletter .btn {
+  font-size: 0.875rem;
+  background-color: #222222;
+  display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 3.125rem;
+    padding-top: 0.703125rem;
+    padding-bottom: 0.5625rem;
+}
+.block-newsletter .block__title {
+  color: #222222;
+  margin-bottom: 1.125rem;
+}
+.block-newsletter p {
+  margin-bottom: 1.5rem;
+}
+.border-top-1 {
+  border-top: 1px solid #eee;
+}
+.border-left-lg-1 {
+  border-left: 1px solid #eee;
+}
+.newsletter{
+  padding: 0px;
+}
+ /**Footer Section**/
+ footer {
+  z-index: 99;
+  padding-top: 60px;
+  position: relative;
+    background :black;
+}
+.footer-content {
+  padding: 0px 0 30px;
+}
+img.img-footer {
+  max-width: 150px;
+  margin-bottom: 2rem;
+}
+.footer-address {
+  color: white;
+  font-size: 13px;
+}
+.footer p{
+  margin: 0 0 10px;
+  line-height: 1.8;
+}
+.footer span{
+color: white;
+}
+h4.content-title {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.footer a{
+  text-decoration: none;
+}
+.footer-content ul {
+  padding: 0;
+  margin: 0;
+}
+.footer-content ul li {
+  list-style: none;
+  margin-top: 15px;
+  display: block;
+}
+.footer-last {
+  padding: 20px 0;
+  margin-top: 30px;
+ 
+}
+.main-footer .footer-last {
+  background: black;
+  border-top: none;
+}
+footer.main-footer a {
+  color: gray;
+  transition: all ease 0.4s;
+  font-size: 14px;
+}
+ul.footer-last-icons li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 17px;
+  margin-top: 0;
+}
+.brand-icon-content {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.footer .text-right {
+  text-align: right !important;
+}
+/**Media Queries**/
+@media only screen and (max-width: 1025px){
+  #dealofweek-sec .image-header{
+    min-height: 381px !important;
+    height: 26vh !important;
+  }
+  .dealofweek-head span  {
+    font-size: 12px;
+  }
+  #summersale h4{
+    font-size: 16px;
+  }
+  #summersale h3{
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 855px) { 
+  #newarrivals{
+    margin-top: 38%;
+    margin-left: 12%;
+  }
+}
+@media only screen and (max-width: 767px) {
+ 
+h2{
+  font-size: 17px !important;
+}
+  section{
+    padding: 30px 0 30px;
+  }
+  #dealofweek-sec {
+    padding: 30px 0 30px;
+}
+.image-header h1 {
+  font-size: 29px !important;
+}
+.image-header {
+min-height: 464px;
+    height: 35vh
+}  
+h3.service-promotion__title.h5.text-uppercase{
+    font-size: 1rem !important;
+  }
+  .col-md-4.text-center.mb-5.mb-md-0{
+    margin-bottom: 2rem !important;
+  }
+  .pt-1.pb-5 {
+    padding-bottom: 0px !important;
+}
+
+  .lookbook-head span {
+    font-size: 11px;
+    margin-top: -2%;
+  }
+  .lookbook-head p{
+    font-size: 11px;
+    margin-top: -2%;
+  }
+  .coolection-head p{
+    font-size: 12px;
+  }
+  #category-img p{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10%;
+  }
+  #category-img  .owl-carousel .owl-item img {
+    width: 90%;
+  }
+  #carousel04 {
+   margin-left: 9%;
+   text-align: center;
+  }
+  #summersale {
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 0px !important;
+  }
+  #summersale h4{
+    font-size: 15px;
+  }
+  #summersale h3{
+    font-size: 16px;
+  }
+  #dealofweek-sec .image-header{
+    min-height: 411px !important;
+   height: 41vh !important;
+  }
+
+}
+/**Carosouel Design**/
+   /**Sliders Action**/
+   #carousel02  .owl-nav {
+    display: flex;
+    margin-top: 4%;
+}
+  #carousel02 .owl-next {
+    width: 15px;
+    height: 15px;
+    margin-left: 1%;
+    border-radius: 50%;
+    /* color: black; */
+    border: 2px solid black;
+    background-color: transparent;
+}
+#carousel02 .owl-prev {
+  width: 15px;
+  height: 15px;
+  margin-left: 47%;
+  border-radius: 48%;
+  border-radius: 50%;
+  /* color: black; */
+  border: 2px solid black;
+  background-color: transparent;
+}
